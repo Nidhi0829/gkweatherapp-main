@@ -1,0 +1,138 @@
+.weather {
+    /* color: black; */
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    /* margin-top: 100px; */
+    /* object-position: 10px; */
+    display: flex;
+    flex-direction: column;
+    min-height: 21vh;
+    position: relative;
+    top: 70px;
+}
+
+.mum {
+    height: 90px;
+    width: 75%;
+    color: blanchedalmond;
+    border-radius: 120px;
+    margin: 5vh auto;
+    align-content: center;
+    background: rgba(0, 59, 136, 0.5);
+}
+.navbar{
+    display:flex;
+	align-items: center;
+    text-align: center;
+	top: 0px;
+    left: 0px;
+	position: sticky;
+	height: 70px;
+    background-color: #0005;
+
+}
+.navbar .time{
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+}
+.navbar .item {
+    font-size: 30px;
+    margin: 10px 0px;
+    color: whitesmoke;
+}
+.copyright {
+    position: relative;
+    top: -70px;
+    color: blanchedalmond;
+    /* left: 750px; */
+    font-size: small;
+    font-weight: lighter;
+    /* display: inline; */
+    flex-direction: column;
+    display: flex;
+    /* margin: auto; */
+    text-align: center;
+}
+.mum ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 11px;
+    justify-content: center;
+}
+.mum ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    align-items: center;
+    padding: 5px 10px;
+}
+.user__title {
+    margin-bottom: -10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.user {
+    background: rgba(0, 59, 136, 0.5);
+    width: 90%;
+    max-width: 380px;
+    /* margin: auto; */
+    /* top: 270px; */
+    /* left: 650px; */
+    position: realtive;
+    justify-content: center;
+    align-items: center;
+    margin: 8vh auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.user2 {
+    background-color: black;
+    opacity: .4;
+    width: 100%;
+    max-width: 310px;
+    height: 470px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* margin: 24vh auto; */
+    padding: 50px;
+    border-radius: 20px;
+}
+.text {
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+    position: relative;
+    top: -470px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 24vh auto; */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.citynm {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.temp {
+    color: yellow;
+    font-size: 70px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
